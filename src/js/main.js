@@ -70,7 +70,6 @@ window.addEventListener('load', () => {
       if (isFull()) {
         checkGame();
       }
-      console.log(window);
     });
   })
 })
