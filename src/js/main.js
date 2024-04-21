@@ -13,15 +13,6 @@ window.addEventListener("load", () => {
   const BOXES = document.querySelectorAll(".box");
 
   // HELPERS
-  const isFull = () => {
-    const CP_BOXES = [...GAME].flat(Infinity);
-    const isTotal = CP_BOXES.every((box) => box !== null);
-    if(isTotal){
-       alert(`Game Over`);
-       window.location.reload();
-    }
-  };
-
   const checkGame = () => {
     let winner = false;
 

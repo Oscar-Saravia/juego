@@ -29,3 +29,9 @@ body {
   text-align: center;
   cursor: pointer;
 }
+
+.title{
+  align-items: center;
+  justify-self: center;
+  padding: 15px;
+}
